@@ -95,7 +95,7 @@ start = '''
     <!DOCTYPE html>
 <html>
 <head>
-    <title>HTML Table Generator</title> 
+    <title>YouTube Downloads</title> 
     <style>
         table {
             border:1px solid #b3adad;
