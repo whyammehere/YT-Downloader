@@ -1,0 +1,1 @@
+pyinstaller -F --hidden-import pytube --hidden-import subprocess --add-binary ffmpeg.exe;. YTDownloader.py
