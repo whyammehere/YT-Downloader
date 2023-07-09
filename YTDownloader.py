@@ -50,12 +50,12 @@ while True:
 
 #download other filetypes?
 print('\n\ninput other filetypes to be downloaded')
-additional_download = input('ex:"mp3 ogg"\n\n').lower().replace('.','').split()
+additional_download = input('ex input:"mp3 ogg"\n\n').lower().replace('.','').split()
 
 # output folder
 print(f'\n\nOutput will be in folder: {PATH}\n')
 while True:
-    n = input('Would you like to proceed? (y/n)\n')
+    n = input('Would you like to proceed? (y/n)\n\n')
     if n.lower() == 'y':
         break
     elif n.lower() == 'n':
